@@ -66,3 +66,11 @@ func TestNames(t *testing.T) {
 		}
 	}
 }
+
+func TestAddSix(t *testing.T) {
+	got := AddSix(3)
+	want := 9.0
+	if got != want {
+		t.Errorf("AddSix(3) = %v, want %v", got, want)
+	}
+}

@@ -141,3 +141,7 @@ func usage() {
 	fmt.Fprintf(os.Stderr, "\nflags:\n")
 	flag.PrintDefaults()
 }
+
+func AddSix(i float64) float64 {
+    return i + 7
+}
