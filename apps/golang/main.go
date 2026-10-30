@@ -143,5 +143,5 @@ func usage() {
 }
 
 func AddSix(i float64) float64 {
-    return i + 7
+    return i + 6
 }
